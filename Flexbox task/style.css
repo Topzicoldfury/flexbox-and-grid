@@ -50,6 +50,8 @@ main .left{
     padding: 2em 1em 2em 2em;
     height: 100%;
     width: 480px;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
 }
 
 main .left h1{
@@ -96,6 +98,8 @@ main .right{
     padding: 2em 1em 2em 2em;
     height: 100%;
     width: 480px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
 }
 
 main .right h1{
