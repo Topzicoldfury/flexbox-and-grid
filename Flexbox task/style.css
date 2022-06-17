@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    width: 1440px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 50%;
+    margin: auto;
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+main h3{
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+main button{
+    border-radius: 25px;
+    padding: 10px 20px;
+    background-color: hsl(0, 0%, 95%);
+    border: hsl(0, 0%, 95%);
+    margin: auto;
+}
+
+main .left{
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+    height: 100%;
+    width: 480px;
+}
+
+main .left h3{
+    padding: 2em;
+}
+
+main .left p{
+    padding: 2em;
+}
+
+main .left button{
+    color: hsl(31, 77%, 52%);
+}
+
+main .mid{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+    height: 100%;
+    width: 480px;
+}
+
+main .mid h3{
+    padding: 2em;
+}
+
+main .mid p{
+    padding: 2em;
+}
+
+main .mid button{
+    color: hsl(184, 100%, 22%);
+}
+
+main .right{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+    height: 100%;
+    width: 480px;
+}
+
+main .right h3{
+    padding: 2em;
+}
+
+main .right p{
+    padding: 2em;
+}
+
+main .right button{
+    color: hsl(179, 100%, 13%);
+    justify-self: center;
+}
